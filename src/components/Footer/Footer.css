@@ -1,0 +1,33 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.footer-out-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.footer-container div ul{
+    display: grid;
+    gap: 20px;
+}
+.social-meadia ul {
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+    padding: auto;
+    gap: 20px;
+}
+
+.footer-copywrite button {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    color: white;
+    border: 1px white solid;
+    padding: 2px 10px;
+}
+
+.footer-copywrite p {
+    font-size: 12px;
+}

@@ -1,0 +1,52 @@
+
+.header-outer-container {
+    width: 100% !important;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    background-color: rgb(20, 20, 20);
+}
+
+.nav-black {
+    background-color: black;
+}
+
+.header-container {
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.header-left ul {
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+.header-right ul {
+    width: 150%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.header-left ul li:first-child {
+    width: 100px;
+}
+.header-left img {
+    width: 100%;
+}
