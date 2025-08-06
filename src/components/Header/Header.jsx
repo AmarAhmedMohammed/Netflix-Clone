@@ -1,4 +1,5 @@
 import "./Header.css";
+// import "../../css/bootstrap.css"
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
@@ -6,11 +7,11 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 function Header() {
   return (
-    <div className="header-outer-container">
+    <div className="header-outer-container container-fluid">
       <div className="header-container">
-        <div className="header-left">
+        <div className="header-left d-sm-none d-md-block">
           <ul>
-            <li>
+            <li className="d-sm-block">
               <img src="netflix-logo.png" alt="" />
             </li>
             <li>Home</li>
