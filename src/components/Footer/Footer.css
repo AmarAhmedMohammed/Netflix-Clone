@@ -4,8 +4,10 @@
 }
 
 .footer-out-container {
-    width: 1000px !important;
+    width: 1200px !important;
     margin: 0 auto;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 .footer-container div ul{
     display: grid;

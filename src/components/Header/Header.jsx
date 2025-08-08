@@ -7,19 +7,18 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 function Header() {
   return (
-    <div className="header-outer-container container-fluid">
+    <div className="header-outer-container">
       <div className="header-container">
         <div className="header-left d-sm-none d-md-block">
           <ul>
-            <li className="d-sm-block">
+            <li className="block">
               <img src="netflix-logo.png" alt="" />
             </li>
-            <li>Home</li>
-            <li>TvShow</li>
-            <li>Movies</li>
-            <li>Latest</li>
-            <li>MyList</li>
-            <li>Browse by Languages</li>
+            <li className="none">Home</li>
+            <li className="none">TvShow</li>
+            <li className="none">Movies</li>
+            <li className="none">Latest</li>
+            <li className="none">MyList</li>
           </ul>
         </div>
       </div>

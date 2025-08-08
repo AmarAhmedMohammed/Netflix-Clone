@@ -2,6 +2,7 @@
     padding: 0 ;
 }
 
+
 .header-outer-container {
     width: 100% !important;
     position: sticky;
@@ -23,7 +24,7 @@
 }
 
 .header-container {
-    width: 80%;
+    width: 86%;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -53,3 +54,4 @@
 .header-left img {
     width: 100%;
 }
+

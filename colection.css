@@ -1,0 +1,67 @@
+/* HEADER.CSS */
+
+
+@media (max-width: 540px) {
+    .header-outer-container {
+        background-color: aqua;
+        color: black;
+    }
+    .none {
+        display: none;
+    }
+    .header-container {
+        width: 53%;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 720px) {
+    .header-outer-container {
+        background-color: yellow;
+        color: black;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 960px) {
+    .header-outer-container {
+        background-color: green;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1140px) {
+    .header-outer-container {
+        background-color: blue;
+    }
+}
+
+@media (min-width: 1140px) {
+    .header-outer-container {
+        background-color: red;
+    }
+}
+
+
+
+
+
+/* row.css */
+
+@media (max-width: 540px) {
+    .header-outer-container {
+        background-color: aqua;
+        color: black;
+    }
+    .row {
+		width: 481px;
+		margin: 0 auto;
+	}
+
+	.titles {
+		font-size: 23px;
+	}
+
+	element.style {
+    	padding: 0px;
+	}
+}
+
+/* BENNER.CSS */

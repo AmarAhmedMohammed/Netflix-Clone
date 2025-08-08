@@ -1,5 +1,4 @@
 import React from "react";
-// import "../../css/bootstrap.css"
 import "./Footer.css";
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import InstagramIcon from '@mui/icons-material/Instagram';
