@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Oswald:wght@200..700&display=swap");
+
+.row-container {
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+/* .row-container::-webkit-scrollbar {
+    display: none;
+} */
+
+.poster-image-container {
+  overflow-x: auto;
+  padding: 16px 0;
+  scroll-behavior: smooth;
+  max-height: 300px;
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.poster-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+  scale: 100%;
+  transition: 0.5s ease-out;
+  gap: 10px;
+}
+
+.poster-image:hover {
+  scale: 110%;
+}
+
+.poster-image img {
+  width: 100%; /* Fits 100% of the poster-image width */
+  height: auto; /*Maintains aspect ratio*/
+  max-height: 100%; /* Ensures height doesn't exceed container */
+  object-fit: contain; /* Ensures the image fits within the container without cropping */
+}
+
+.row-container h3 {
+  font-size: 35px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-top: 20px;
+}
