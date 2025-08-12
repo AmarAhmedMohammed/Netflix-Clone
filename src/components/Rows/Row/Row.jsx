@@ -37,10 +37,10 @@ function Row({ title, fetchUrl, isPoster }) {
     } else {
       movieTrailer(movie?.title || movie?.name || movie?.original_name).then(
         (url) => {
-          console.log(url);
+          // console.log(url);
           const urlParams = new URLSearchParams(new URL(url).search);
-          console.log(urlParams);
-          console.log(urlParams.get("v"));
+          // console.log(urlParams);
+          // console.log(urlParams.get("v"));
           setTrailerUrl(urlParams.get("v"));
         }
       );
@@ -72,9 +72,9 @@ function Row({ title, fetchUrl, isPoster }) {
                       isPoster ? movie.poster_path : movie.backdrop_path
                     }`}
                     alt={movie.title || movie.name || "Movie poster"}
-                    onError={(e) => {
-                      e.target.src = PLACEHOLDER_IMAGE;
-                    }}
+                    // onError={(e) => {
+                    //   e.target.src = PLACEHOLDER_IMAGE;
+                    // }}
                     loading="lazy" // Improve performance with lazy loading
                   />
                 </div>
