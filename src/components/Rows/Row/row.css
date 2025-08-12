@@ -1,14 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Oswald:wght@200..700&display=swap");
 
-.row-container {
-  /* display: flex; */
-  /* flex-direction: column; */
-}
-
-/* .row-container::-webkit-scrollbar {
-    display: none;
-} */
-
 .poster-image-container {
   overflow-x: auto;
   padding: 16px 0;
@@ -37,10 +28,10 @@
 }
 
 .poster-image img {
-  width: 100%; /* Fits 100% of the poster-image width */
-  height: auto; /*Maintains aspect ratio*/
-  max-height: 100%; /* Ensures height doesn't exceed container */
-  object-fit: contain; /* Ensures the image fits within the container without cropping */
+  width: 100%; 
+  height: auto; 
+  max-height: 100%; 
+  object-fit: contain; 
 }
 
 .row-container h3 {
@@ -55,7 +46,6 @@
 
 @media (max-width: 624px) {
     .row-container h3 {
-      /* display: none; */
       width: 100%;
       font-size: 20px;
     }
@@ -63,7 +53,6 @@
 
 @media (max-width: 732px) {
     .row-container h3 {
-      /* display: none; */
       width: 100%;
       font-size: 30px;
     }

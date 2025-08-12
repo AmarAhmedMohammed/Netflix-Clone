@@ -19,8 +19,8 @@ function Row({ title, fetchUrl, isPoster }) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         const data = await response.json();
-        setMovies(data.results || []); // Fallback to empty array if results is undefined
-        setError(null); // Clear any previous errors
+        setMovies(data.results || []); 
+        setError(null); 
       } catch (error) {
         console.error("Error fetching movies:", error);
         setMovies([]);
@@ -29,7 +29,7 @@ function Row({ title, fetchUrl, isPoster }) {
     }
 
     fetchMovies();
-  }, [fetchUrl]); // Add fetchUrl to dependency array
+  }, [fetchUrl]); 
 
   const handleClick = (movie) => {
     if (trailerUrl) {
@@ -75,7 +75,7 @@ function Row({ title, fetchUrl, isPoster }) {
                     // onError={(e) => {
                     //   e.target.src = PLACEHOLDER_IMAGE;
                     // }}
-                    loading="lazy" // Improve performance with lazy loading
+                    loading="lazy" 
                   />
                 </div>
               ))
