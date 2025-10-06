@@ -5,12 +5,12 @@ function RowList() {
   return (
     <div>
         <Row title="ANIMATION MOVIES" fetchUrl={request.fetchAnimationMovies} isPoster={true}/>
-        <Row title="TRENDING MOVIES" fetchUrl={request.fetchTrending}/>
-        <Row title="ACTION MOVIES" fetchUrl={request.fetchActionMovies}/>
-        <Row title="COMMEDY MOVIES" fetchUrl={request.fetchComedyMovies}/>
-        <Row title="HORROR MOVIES" fetchUrl={request.fetchHorrorMovies}/>
-        <Row title="FAMILY MOVIES" fetchUrl={request.fetchFamilyMovies}/>
-        <Row title="SCINCE FICTION" fetchUrl={request.fetchScienceFiction}/>
+        <Row title="TRENDING MOVIES" fetchUrl={request.fetchAnimationMovies}/>
+        <Row title="ACTION MOVIES" fetchUrl={request.fetchAnimationMovies}/>
+        <Row title="COMMEDY MOVIES" fetchUrl={request.fetchAnimationMovies}/>
+        <Row title="HORROR MOVIES" fetchUrl={request.fetchAnimationMovies}/>
+        <Row title="FAMILY MOVIES" fetchUrl={request.fetchAnimationMovies}/>
+        <Row title="SCINCE FICTION" fetchUrl={request.fetchAnimationMovies}/>
     </div>
   )
 }
